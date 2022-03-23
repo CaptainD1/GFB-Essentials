@@ -1,7 +1,5 @@
 package com.greenflameblade.gfb_essentials;
 
-import java.util.stream.Collectors;
-
 import com.greenflameblade.gfb_essentials.core.init.ItemInit;
 import com.greenflameblade.gfb_essentials.core.init.MainInit;
 
@@ -54,7 +52,7 @@ public class GFBEssentials {
 
         @Override
         public void fillItemList(NonNullList<ItemStack> items) {
-            items.addAll(0, ItemInit.ITEMS.getEntries().stream().map(e -> e.get().getDefaultInstance()).collect(Collectors.toList()));
+            items.addAll(0, ItemInit.getTabItems());
             super.fillItemList(items);
         }
     }

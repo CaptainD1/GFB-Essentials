@@ -1,5 +1,6 @@
 package com.greenflameblade.gfb_essentials.common.item;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
@@ -28,7 +29,7 @@ public class DragonPhermomonesItem extends LoreItem {
     
     public static final List<EffectInstance> PHEROMONES_GENERIC_EFFECTS = Arrays.asList(
         new EffectInstance(Effects.BLINDNESS, 1000), new EffectInstance(Effects.CONFUSION, 1000),
-        new EffectInstance(Effects.HEALTH_BOOST, 1000, 4), new EffectInstance(Effects.REGENERATION, 300, 2)
+        new EffectInstance(Effects.HEALTH_BOOST, 1000, 4), new EffectInstance(Effects.REGENERATION, 300, 3)
     );
 
     public static final List<EffectInstance> FIRE_DRAGON_PHEROMONES_EFFECTS = Arrays.asList(
@@ -44,17 +45,17 @@ public class DragonPhermomonesItem extends LoreItem {
         new EffectInstance(Effects.MOVEMENT_SPEED, 300, 2)
     );
 
-    private List<EffectInstance> effects;
-    private List<Consumer<LivingEntity>> extraEffects;
+    private List<EffectInstance> effects = new ArrayList<EffectInstance>();
+    private List<Consumer<LivingEntity>> extraEffects = new ArrayList<Consumer<LivingEntity>>();
 
     public DragonPhermomonesItem(Properties properties, List<EffectInstance> effects) {
         super(properties.stacksTo(1), true);
-        this.effects = effects;
+        this.effects.addAll(effects);
     }
 
     public DragonPhermomonesItem(Properties properties, List<EffectInstance> effects, List<Consumer<LivingEntity>> extraEffects) {
         this(properties, effects);
-        this.extraEffects = extraEffects;
+        this.extraEffects.addAll(extraEffects);
     }
 
     public DragonPhermomonesItem(Properties properties, List<EffectInstance> effects, Consumer<LivingEntity> extraEffect) {

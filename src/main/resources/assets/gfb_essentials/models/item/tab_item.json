@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "gfb_essentials:items/gold_coin"
+    }
+  }
