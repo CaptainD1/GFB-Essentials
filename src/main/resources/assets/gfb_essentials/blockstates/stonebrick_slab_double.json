@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "minecraft:block/stone_brick_slab_double"
+    }
+  }
+}

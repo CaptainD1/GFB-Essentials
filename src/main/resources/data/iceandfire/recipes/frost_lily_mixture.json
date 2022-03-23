@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:prismarine_crystals"
+      },
+      {
+        "item": "iceandfire:frost_lily"
+      },
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "gfb_essentials:ice_dragon_pheromones"
+      }
+    ],
+    "result": {
+      "item": "iceandfire:frost_stew",
+      "count": 1
+    }
+  }

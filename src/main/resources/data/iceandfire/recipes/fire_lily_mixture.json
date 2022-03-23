@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:blaze_rod"
+      },
+      {
+        "item": "iceandfire:fire_lily"
+      },
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "gfb_essentials:fire_dragon_pheromones"
+      }
+    ],
+    "result": {
+      "item": "iceandfire:fire_stew",
+      "count": 1
+    }
+  }

@@ -1,0 +1,13 @@
+{
+  "group": "gfb_essentials",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gfb_essentials:gold_coin"
+    }
+  ],
+  "result": {
+    "item": "gfb_essentials:silver_coin",
+    "count": 10
+  }
+}

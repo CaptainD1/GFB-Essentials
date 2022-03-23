@@ -1,0 +1,26 @@
+{
+  "group": "gfb_essentials",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "iceandfire:frost_lily",
+      "data": 1
+    },
+    {
+      "item": "iceandfire:ice_dragon_flesh"
+    },
+    {
+      "item": "iceandfire:ice_dragon_flesh"
+    },
+    {
+      "item": "iceandfire:ice_dragon_flesh"
+    },
+    {
+      "item": "gfb_essentials:enchanted_bottle"
+    }
+  ],
+  "result": {
+    "item": "gfb_essentials:ice_dragon_pheromones",
+    "count": 1
+  }
+}

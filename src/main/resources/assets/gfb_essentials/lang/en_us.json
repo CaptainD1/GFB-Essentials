@@ -1,0 +1,27 @@
+{
+    "itemGroup.gfbtab": "GFB Essentials",
+
+    "item.gfb_essentials.fire_dragon_pheromones": "Fire Dragon Pheromones",
+    "item.gfb_essentials.ice_dragon_pheromones": "Ice Dragon Pheromones",
+    "item.gfb_essentials.lightning_dragon_pheromones": "Lightning Dragon Pheromones",
+    "item.gfb_essentials.copper_coin": "Copper Penny",
+    "item.gfb_essentials.bronze_coin": "Bronze Hippogriff",
+    "item.gfb_essentials.silver_coin": "Silver Unicorn",
+    "item.gfb_essentials.gold_coin": "Gold Phoenix",
+    "item.gfb_essentials.enchanted_bottle": "Enchanted Bottle",
+    "item.gfb_essentials.mollycoddle": "Mollycoddle",
+
+    "block.gfb_essentials.mollycoddle_vine": "Mollycoddle Vine",
+    "block.gfb_essentials.stonebrick": "Stone Bricks",
+    "block.gfb_essentials.enchanted_glass": "Enchanted Glass",
+    "block.gfb_essentials.stonebrick_stairs": "Stone Brick Stairs",
+    "block.gfb_essentials.stonebrick_slab": "Stone Brick Slab",
+
+    "tooltip.gfb_essentials.hold_shift": "Hold \u00A7eShift \u00A77for More Information",
+    "tooltip.gfb_essentials.stonebrick": "An indestructible variant of stone brick.",
+    "tooltip.gfb_essentials.currency_item.instructions_1": "\u00A79Right click to convert to higher denomination",
+    "tooltip.gfb_essentials.currency_item.instructions_2": "\u00A79Sneak + Right click to convert all to higher denomination",
+    "tooltip.gfb_essentials.currency_item.instructions_3": "\u00A79Sneak + Left click to convert one to lower denomination",
+
+    "container.gfb_essentials.currency_converter_title": "Currency Conversion"
+}

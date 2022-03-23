@@ -1,0 +1,42 @@
+{
+  "group": "gfb_essentials",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:experience_bottle"
+    },
+    "1": {
+      "item": "minecraft:experience_bottle"
+    },
+    "2": {
+      "item": "minecraft:experience_bottle"
+    },
+    "3": {
+      "item": "minecraft:experience_bottle"
+    },
+    "4": {
+      "item": "minecraft:obsidian"
+    },
+    "5": {
+      "item": "minecraft:experience_bottle"
+    },
+    "6": {
+      "item": "minecraft:experience_bottle"
+    },
+    "7": {
+      "item": "minecraft:experience_bottle"
+    },
+    "8": {
+      "item": "minecraft:experience_bottle"
+    }
+  },
+  "result": {
+    "item": "gfb_essentials:enchanted_glass",
+    "count": 4
+  }
+}

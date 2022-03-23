@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gfb_essentials:blocks/enchanted_glass"
+  }
+}

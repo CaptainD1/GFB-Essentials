@@ -1,0 +1,7 @@
+{
+    "parent": "block/cross",
+    "textures": {
+      "cross": "gfb_essentials:blocks/mollycoddle_vine",
+      "particle": "gfb_essentials:blocks/mollycoddle_vine"
+    }
+  }

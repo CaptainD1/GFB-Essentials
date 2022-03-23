@@ -1,0 +1,27 @@
+{
+  "group": "gfb_essentials",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "gfb_essentials:enchanted_glass"
+    },
+    "5": {
+      "item": "gfb_essentials:enchanted_glass"
+    },
+    "7": {
+      "item": "gfb_essentials:enchanted_glass"
+    }
+  },
+  "result": {
+    "item": "gfb_essentials:enchanted_bottle",
+    "count": 3
+  }
+}
